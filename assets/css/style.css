@@ -1,0 +1,227 @@
+.header {
+  background-color: #494c5e;
+  position: relative;
+  z-index: 10;
+  -webkit-box-shadow: 0px 6px 25px -5px #000000;
+          box-shadow: 0px 6px 25px -5px #000000;
+}
+
+.footer {
+  background-color: #2d2f39;
+}
+
+.text-gray {
+  color: #b6b6b6;
+}
+
+.bg-header-red {
+  background-color: #ff4e00;
+}
+
+.bg-red {
+  background-color: #ff0000;
+}
+
+.bg-green {
+  background-color: #00bd8d;
+}
+
+.text-red {
+  color: #ff4e00;
+}
+
+.border-radius-20 {
+  border-radius: 20px;
+}
+
+.font-family {
+  font-family: "Helvetica Neue LT Std", Helvetica, Arial, sans-serif;
+}
+
+.font-size {
+  font-size: 16px;
+}
+
+.font-weight-normal {
+  font-weight: normal;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.font-weight-extrabold {
+  font-weight: 900;
+}
+
+.padding-x-0-75 {
+  padding: 0 0.75rem;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.padding-40 {
+  padding: 40px;
+}
+
+.font-size-0-75 {
+  font-size: 0.75rem;
+}
+
+.font-size-1-125 {
+  font-size: 1.125rem;
+}
+
+.font-size-1-25 {
+  font-size: 1.25rem;
+}
+
+.font-size-1-5 {
+  font-size: 1.5rem;
+}
+
+.font-size-1-75 {
+  font-size: 1.75rem;
+}
+
+.font-size-2 {
+  font-size: 2rem;
+}
+
+.font-size-2-5 {
+  font-size: 2.5rem;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.line-height-2 {
+  line-height: 2rem;
+}
+
+body {
+  font-family: "Helvetica Neue LT Std", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.border-left-4 {
+  border-left: 3px solid #8b90a5;
+  border-bottom: 3px solid #8b90a5;
+  border-bottom-left-radius: 20px;
+}
+
+.border-right-4 {
+  border-right: 3px solid #8b90a5;
+  border-bottom: 3px solid #8b90a5;
+  border-bottom-right-radius: 20px;
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.w-70 {
+  width: 70px;
+}
+
+.border-gradient {
+  background: rgba(129, 134, 155, 0.35);
+  padding: 25px 20px;
+  border: 3px solid #b1b6c8;
+  border-radius: 20px;
+}
+
+.main-red {
+  background-color: #ff0000;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff0000), color-stop(15%, #2d2f39));
+  background: linear-gradient(180deg, #ff0000 0%, #2d2f39 15%);
+}
+
+.main-green {
+  background-color: #00bd8d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00bd8d), color-stop(15%, #2d2f39));
+  background: linear-gradient(180deg, #00bd8d 0%, #2d2f39 15%);
+}
+
+.main .main-heading {
+  font-size: 1.7rem;
+}
+.main .white-box {
+  border-radius: 20px;
+}
+.main .white-box img {
+  height: 120px;
+  margin: 0 25px;
+}
+.main .white-box .main-id {
+  font-size: 3.8rem;
+}
+.main .white-box .left-box {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 40px 50px;
+}
+.main .white-box .left-box p {
+  line-height: 2rem;
+}
+.main .white-box .right-box {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 40px 50px;
+}
+.main .white-box .right-box .main-high {
+  font-size: 6.5rem;
+}
+.main .white-box form .form-check-input:checked {
+  background-color: #fff;
+  border-color: #cdcdcd;
+}
+.main .white-box form .form-check-input:checked[type=radio] {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='2' fill='%23D9220E'/></svg>");
+}
+.main .white-box form .form-check-input:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(242, 0, 0, 0.15);
+          box-shadow: 0 0 0 0.2rem rgba(242, 0, 0, 0.15);
+}
+
+.header .header-title,
+.header .logo-title {
+  font-size: 2.7rem;
+}
+.header .sub-header-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.3px;
+}
+.header .sub-header-desc {
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+}
+
+.button-submit-div {
+  border-top: 2px solid #dedede;
+  padding: 10px;
+  background: #f5f5f5;
+  border-bottom: 6px solid #eeeeee;
+  margin: 20px auto 0;
+}
+.button-submit-div .btn-submit {
+  background-color: #dd1000;
+  color: #fff;
+}
+.button-submit-div .btn-submit:hover {
+  background-color: #ff0000;
+}/*# sourceMappingURL=style.css.map */
