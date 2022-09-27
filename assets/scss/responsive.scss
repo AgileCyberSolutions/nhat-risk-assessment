@@ -41,9 +41,8 @@
 
 // Example
 // Apply styles starting from medium devices and up to extra large devices
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+@media (min-width: 1280px) and (max-width: 1399.98px) {
     .header {
-
         .header-title,
         .logo-title {
             font-size: 2.4rem;
@@ -114,9 +113,87 @@
     }
 }
 
+@media (min-width: 1200px) and (max-width: 1279.98px) {
+    .header {
+        .header-title,
+        .logo-title {
+            font-size: 2rem;
+        }
+
+        .sub-header-title {
+            font-size: 1rem;
+        }
+
+        .sub-header-desc {
+            font-size: 0.8rem;
+        }
+    }
+
+    .main {
+        .main-heading {
+            font-size: 1.4rem;
+        }
+
+        .border-gradient {
+            .white-box {
+                h2 {
+                    font-size: 1.75rem;
+                }
+
+                .left-box {
+                    padding: 20px;
+                    h2 {
+                        font-size: 1.45rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                    }
+                }
+
+                h2.main-id {
+                    font-size: 2.3rem;
+                }
+
+                .right-box {
+                    padding: 20px;
+                    .main-high {
+                        font-size: 5rem;
+                    }
+
+                    h3 {
+                        font-size: 1.3rem;
+                    }
+
+                    h2 {
+                        font-size: 1.45rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        line-height: 1.5rem;
+                    }
+                }
+
+            }
+        }
+
+        .white-box {
+            .left-box, .right-box {
+                padding: 20px;
+            }
+        }
+
+        .padding-40.box-basis {
+            padding: 20px;
+        }
+
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .header {
-
         .header-title,
         .logo-title {
             font-size: 2rem;
